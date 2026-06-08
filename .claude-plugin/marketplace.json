@@ -1,0 +1,33 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sancrev-marketplace",
+  "description": "The SANCREV / GNOSYS plugin catalog for Claude Code — a thin reference catalog (tier 3) that POINTS at each plugin's own public repo (tier 2). Plugins are projected here from the private dev monorepo by the scalable-publishing pipeline; this catalog never houses their code.",
+  "owner": {
+    "name": "Isaac Rubin",
+    "email": "isaacwrubin@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "doc-mirror",
+      "description": "The doc-mirror claude system: a 1:1 documentation mirror of any codebase, maintained by an invariant STATE MACHINE (per-module doc(m) impl docs grounded in real code structure + a vision(m) backlog, 6 context/ index files, fork-on-change, no random documents). Bundles doc-mirror-boot + the {init,seework,change,prompts} state-skills + the install wizard + ship-a-plugin + make-ai-operating-system; the brainhook/session-start/transition-guard/readonly-guard hooks; and the journal/vision/tracker/commit/cursor CLIs.",
+      "author": { "name": "Isaac Rubin" },
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sancovp/doc-mirror.git",
+        "sha": "d687b40b86d5641f408715dd3b369e9a4bdfbf1f"
+      }
+    },
+    {
+      "name": "promptworld",
+      "description": "PromptWorld — the meta-compiler *World: a WrightMaster Engineer-CEO with every skill plus a native subagent per component type (skill / mcp / harness / operating_system / prompt / team / workflow) and 7 PromptGym specialist AIOS agents, that compile / compose / publish prompt systems through the nomicon. Bundles the install-promptworld deploy WIZARD (build the docker image, boot the container running the Engineer-CEO + PromptGym + the assistant-ui chat / Monaco file explorer / embedded terminal, then hand the user one URL), compile-a-world, and ingest-into-nomicon-app.",
+      "author": { "name": "Isaac Rubin" },
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sancovp/promptworld.git",
+        "sha": "7a53f8986d9197ccf50fbf7b86873a609cb98250"
+      }
+    }
+  ]
+}
