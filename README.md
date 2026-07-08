@@ -1,5 +1,17 @@
 # SANCREV Marketplace
 
+<!-- SCALABLE-PUBLISHING:AUTOGEN START (managed block — do not edit between these markers) -->
+
+![Stars](https://img.shields.io/github/stars/sancovp/sancrev-marketplace.svg?style=social) ![Updated](https://img.shields.io/badge/updated-2026_06_09-lightgrey.svg)
+
+⭐ 0 stars • 🕑 Updated 2026-06-09
+
+[Docs](https://sancovp.github.io/aisaac/)
+
+📦 Auto-published from the monorepo • [CHANGELOG](./CHANGELOG.md) • [sancovp/sancrev-marketplace](https://github.com/sancovp/sancrev-marketplace)
+
+<!-- SCALABLE-PUBLISHING:AUTOGEN END -->
+
 The Claude Code **plugin catalog** for the SANCREV / GNOSYS ecosystem.
 
 This is a **thin reference catalog** (tier 3 of the [scalable-publishing](https://sancovp.github.io/aisaac/) topology): it holds **one** `.claude-plugin/marketplace.json` that **points at each plugin's own public repo** (tier 2). It does **not** house any plugin's code — plugins are projected into their own repos from the private dev monorepo by the publishing pipeline, and this catalog just references them.
