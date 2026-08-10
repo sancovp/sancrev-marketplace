@@ -54,6 +54,18 @@
         "source": "url",
         "url": "https://github.com/sancovp/restaurants-module.git"
       }
+    },
+    {
+      "name": "sourdough-baking-module",
+      "description": "sourdough baking \u2014 a cultivated, proof-checked neurosymbolic knowledge module: RAG library, agent brain, growable KB, factory-deepened. 465 concepts.",
+      "author": {
+        "name": "Isaac Wostrel-Rubin"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sancovp/sourdough-baking-module.git"
+      }
     }
   ]
 }
