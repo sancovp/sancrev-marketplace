@@ -2,9 +2,9 @@
 
 <!-- SCALABLE-PUBLISHING:AUTOGEN START (managed block — do not edit between these markers) -->
 
-![Stars](https://img.shields.io/github/stars/sancovp/sancrev-marketplace.svg?style=social) ![Updated](https://img.shields.io/badge/updated-2026_11_06-lightgrey.svg)
+![Stars](https://img.shields.io/github/stars/sancovp/sancrev-marketplace.svg?style=social) ![Updated](https://img.shields.io/badge/updated-2026_11_07-lightgrey.svg)
 
-⭐ 0 stars • 🕑 Updated 2026-11-06
+⭐ 0 stars • 🕑 Updated 2026-11-07
 
 📦 Auto-published from the monorepo • [CHANGELOG](./CHANGELOG.md) • [sancovp/sancrev-marketplace](https://github.com/sancovp/sancrev-marketplace)
 
