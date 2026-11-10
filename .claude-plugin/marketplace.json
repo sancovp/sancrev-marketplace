@@ -32,6 +32,18 @@
       }
     },
     {
+      "name": "chaincompiler",
+      "description": "ChainCompiler — a compiler-compiler for cognition: invent a notation from examples, gate text against it so the model cannot malform it, compile it into a loadable skill, compose and organize those skills, and build agents from them. Its Python comes from PyPI through uv, pinned to the plugin's release: uv is its one prerequisite. Installs from Claude Code.",
+      "author": {
+        "name": "Isaac Rubin"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sancovp/chaincompiler.git"
+      }
+    },
+    {
       "name": "skilltree",
       "description": "skilltree — coordinate-addressed progressive disclosure for agent skills: turn a flat .claude/skills folder into a walkable tree (path = coordinate, depth = gate, Read = edge) so the model loads one layer and walks instead of loading the pile. CLI: discover / cohere / emit / unemit / map / search / fold / project / validate / watch (PyPI: agent-skilltree — Claude installs it itself). Installs from Claude Code.",
       "author": {
