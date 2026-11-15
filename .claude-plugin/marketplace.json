@@ -54,6 +54,18 @@
         "source": "url",
         "url": "https://github.com/sancovp/skilltree.git"
       }
+    },
+    {
+      "name": "host-aios",
+      "description": "The host AIOS for Claude Code: a configuration Claude takes on by reading it, so every session works the same way, every project gets its design, board, architecture map and notes, and every folder an agent makes is started as a project of its own. Its install skill lays the AIOS out in a folder of its own; its repository's own list also carries the mod that adds its boot instructions and rules. Published from its own repository, outside this manifest.",
+      "author": {
+        "name": "Isaac Rubin"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sancovp/host-aios.git"
+      }
     }
   ]
 }
